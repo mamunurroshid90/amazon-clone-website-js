@@ -6,8 +6,8 @@
     <link href="./dist/output.css" rel="stylesheet" />
     <title>Amazon clone projects</title>
   </head>
-  <body class="w-screen">
-    <nav class="bg-[#131921] flex items-center gap-6 w-dvw px-3">
+  <body class="">
+    <nav class="bg-[#131921] flex items-center gap-6 px-3">
       <div class="w-[120px] h-auto py-3">
         <img src="./assets/amazon_logo.png" alt="logo.png" />
       </div>
@@ -94,15 +94,15 @@
     <!-- 2nd navbar end here  -->
     <!-- -----------------------  -->
     <!-- banner section start here  -->
-    <header>
+    <header class="header-slider">
       <a
-        class="absolute top-1/4 left-0 bg-gray-300 py-4 px-3 text-5xl font-bold"
-        href=""
+        class="prevBtn absolute z-10 top-1/4 left-0 bg-gray-300 py-4 px-3 text-5xl font-bold"
+        href="#"
         >&#8592;</a
       >
       <a
-        class="absolute top-1/4 right-0 bg-gray-300 py-4 px-3 text-5xl font-bold"
-        href=""
+        class="nextBtn absolute z-10 top-1/4 right-0 bg-gray-300 py-4 px-3 text-5xl font-bold"
+        href="#"
         >&#8594;</a
       >
       <ul class="overflow-y-hidden flex">
@@ -115,6 +115,174 @@
       </ul>
     </header>
     <!-- banner section end here  -->
+    <!-- ===========================  -->
+
+    <!-- card section start here  -->
+    <section class="overflow-x-hidden -mt-96">
+      <div class="flex justify-between flex-wrap mx-5 my-4">
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">Gaming accessories</h4>
+          <img class="" src="./assets/gamming.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">
+            Amazon Gadget Store
+          </h4>
+          <img src="./assets/gadget.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">Deals in PCs</h4>
+          <img src="./assets/pc.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">Refresh your space</h4>
+          <img src="./assets/refresh.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="overflow-x-hidden">
+      <div class="flex justify-between flex-wrap mx-5 my-4">
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">Toys under $25</h4>
+          <img class="" src="./assets/toys.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">
+            Handpicked music & audio
+          </h4>
+          <img src="./assets/music & audio.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">
+            Celebrate the women in your life
+          </h4>
+          <img src="./assets/celebrate.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+        <div class="bg-white px-6 py-8 w-[350px]">
+          <h4 class="text-2xl font-bold capitalize pb-2">
+            Shop deals in Fashion
+          </h4>
+          <img src="./assets/fashion.png" alt="box1-1.jpg" />
+          <a
+            class="text-green-600 mt-3 inline-block text-base"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >See more</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- card section end here  -->
+    <!-- ======================= -->
+
+    <!-- Best seller section start here  -->
+    <section class="my-3 mx-5 bg-white pl-5 py-5">
+      <h2 class="text-2xl font-bold pb-2">Best Sellers in Sports & Outdoors</h2>
+      <div class="flex gap-4 overflow-x-auto no-scrollbar products">
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-1.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-2.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-3.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-4.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-5.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-6.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-7.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-8.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-9.jpg"
+          alt="product1-1"
+        />
+        <img
+          class="max-w-[200px] max-h-[200px]"
+          src="./assets/product1-10.jpg"
+          alt="product1-1"
+        />
+      </div>
+    </section>
+    <!-- Best seller section end here  -->
+
     <script src="app.js"></script>
   </body>
 </html>
